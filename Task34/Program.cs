@@ -17,7 +17,7 @@ int FindEvenNumbers(int[] massive)              //Функция поиска ч
 
 Console.Clear();
 int[] massive = new int[10];                    //Здесь вначале мы объявили массив MASSIVE, который будет хранить данные типа int.
-                                                //Далее используя операцию new, мы выделили память для 4 элементов массива: new int[10].
+                                                //Далее используя операцию new, мы выделили память для 10 элементов массива: new int[10].
 Random random = new Random();
 for (int i = 0; i < massive.Length; i++)        //Цикл заполнения массив
 {
